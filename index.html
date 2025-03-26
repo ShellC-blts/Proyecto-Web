@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<!--Metadata del documento HTML, definiendo titulo, estilo, links y scripts-->
+<head>
+    <!--usado para definir tipo de caracteres, nombre, palabras claves, autor y configuracion de viewport-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!--usado para conectar a estilos externos-->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital,wght@0,400;0,700;1,400&display=swap" rel="stylesheet">
+    
+    <!--link rel="stylesheet" href="css/styles_temp.css"-->
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/styles.css">
+    
+
+    <link rel="stylesheet" href="icons/fontawesome-free-6.7.2-web/css/all.min.css">
+    
+    <!--usado para definir JavaScripts de parte del cliente-->
+    <script src="js/modernizr-custom.js"></script>
+    <script src="https://kit.fontawesome.com/eb496ab1a0.js"
+    crossorigin="anonymous"></script>
+    
+    <!--Define el titulo del documento-->
+    <title>Portafolio</title>
+</head>
+<body>
+    <div class="container-bar">
+        <input type="checkbox" id="btn-social" />
+        <label for="btn-social" class="fa fa-play"></label>
+        <div class="icon-social">
+          <a href="https://www.youtube.com/@ShellC_blts" class="fa-brands fa-youtube">
+            <span id="title">Youtube</span>
+          </a>
+          <a href="https://x.com/ShellC_blts" class="fa-brands fa-twitter">
+            <span id="title">Twitter</span>
+          </a>
+          <a href="https://github.com/ShellC-blts" class="fa-brands fa-github">
+            <span id="title">Github</span>
+          </a>
+        </div>
+    </div>
+    <!--H1-H6 Definen cabeceras del archiv-->
+    <!--Contenedor para contenido introductorio o links de navegacion-->
+    <header>
+        <!--Define division entre el contenido de paginas-->
+        <div class="container">
+            <!--Set de links de navegacion-->
+            <nav class="menu">
+                    <!--Define hipervinculos para conectar una pagina a otra-->
+                    <a href="#">inicio</a>
+                    <a href="#">acerca de</a>
+                    <a href="#">Trabajos</a>
+                    <a href="#">Habilidades</a>
+                    <a href="#">Contacto</a>
+            </nav>
+            <div class="container-text">
+                <div class="text">
+                <!--H1 Solo se debe usar una vez-->
+                    <h1 class="name">Carlos Armando Quiroz Valenzuela</h1>
+                    <h2 class="profession">Estudiante de ingenieria de software</h2>
+                    <!--Boton clickeable que realiza una accion-->
+                    <div class="Boton">
+                        <button class="btn-cv">Descargar CV <i class="fa fa-download"></i></button>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!--Contenedor para el contenido principal-->
+    <main>
+        <!--Sectiona partes del documento-->
+        <section id="section-about">
+            <div class="container">
+                <div class="photo">
+                    <img src="./imgs/Perfil.jpg" alt="Carlos Armando Quiroz Valenzuela" height="200px" width="200px">
+                </div>
+                <div class="text">
+                    <h3 class="title">Acerca de</h3>
+                    <!--Define parrafos-->
+                    <!--Resalta partes de un texto o del documento-->
+                    <p>Hola mi nombre es <span class="bold">Carlos Armando Quiroz Valenzuela</span> soy un estudiante de ingenieria de software
+                    me gusta programar y los videojuegos, asi como leer </p>
+                </div>
+            </div>
+        </section>
+
+        <section id="section-jobs">
+            <div class="container">
+                <h3 class="titulo">Trabajo</h3>
+                <div class="container-jobs">
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/1.jpg" alt="IMAGEN TRABAJO">
+                        </div> 
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/2.jpg" alt="IMAGEN TRABAJO">
+                        </div>
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/3.jpg" alt="IMAGEN TRABAJO">
+                        </div>
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/4.jpg" alt="IMAGEN TRABAJO">
+                        </div>
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/5.jpg" alt="IMAGEN TRABAJO">
+                        </div>
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                    <div class="job">
+                        <div class="img-job">
+                            <img src="imgs/6.jpg" alt="IMAGEN TRABAJO">
+                        </div>
+                        <div class="description">
+                            <p class="name">Lorem Ipsum</p>
+                            <p class="category">HTML - JAVA - C# - SQL</p>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </section>
+        <section id="section-skills">
+            <div class="container">
+                <h3 class="title">Habilidades</h3>
+                <div class="container-skills">
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                            <i class="fa-brands fa-html5"></i>
+                        </div>
+                        <div class="description">
+                            <p class="name">HTML5</p>
+                            <p class="category">Princpiante</p>
+                        </div>
+                    </div>
+
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                        <i class="fa-brands fa-java"></i>
+                        </div>
+                        <div class="description">
+                            <p class="name">Java</p>
+                            <p class="category">Experto</p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                        <i class="fa-brands fa-ubuntu"></i>
+                        </div>
+                        <div class="description">
+                            <p class="name">Ubuntu</p>
+                            <p class="category">Princpiante</p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                            <i class="fa-brands fa-android"></i>
+                        </div>
+                        <div class="description">
+                            <p class="name">Android Studio</p>
+                            <p class="category">Principiante</p>
+                        </div>
+                    </div>
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                            <i class="fa-solid fa-database"></i>
+                        </div>
+                        <div class="description">
+                            <p class="name">SQL</p>
+                            <p class="category">Experto</p>
+                        </div>
+                    </div>
+                
+
+                    <div class="skill">
+                        <div class="icon-skill">
+                            <i class="fa-brands fa-css3"></i>
+                        </div>   
+                        <div class="description">
+                            <p class="name">CSS</p>
+                            <p class="category">Principiante</p>
+                        </div>    
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!--Contenedor al pie de la pagina-->
+    <footer>
+        <div class="container">
+            <section id="section-contact">
+                <h3 class="title">Contacto</h3>
+                <!--Formularios para llenar en el sitio web, almacenarlos y/o enviarlos-->
+                <form action="" class="form-message">
+                    <!--Tipo: Forma o estilo del texto que verifica que el texto cumpla con ciertas reglas-->
+                    <!--Nombre: nombre para un elemento de html-->
+                    <!--Placeholder: Texto que se pondra de ejemplo-->
+                    <!--Input: Entrada de elementos ya sea texto, formularios o archivos-->
+                    <!--Area de texto: Un gran espacio donde se puede escribir texto-->
+                    <!--Requerido: area donde se debe interactuar ya sea seleccion o texto-->
+                    <!--Value: define valores en ciertos elementos-->
+                    <input type="text" class="text" placeholder="Nombre" required>
+                    <input type="email" class="email" placeholder="Correo" required>
+                    <textarea name="mensaje" placeholder="Mensaje" required></textarea>
+                    <input type="submit" class="btn-send-msg" value="Enviar">
+                </form>
+            </section>
+        </div>
+        <section id="section-socialMedia">
+            <div class="container">
+                <a href="https://x.com/ShellC_blts" class="twitter"><i class="fa-brands fa-twitter"></i></a>
+                <a href="https://www.youtube.com/@ShellC_blts" class="youtube"><i class="fa-brands fa-square-youtube"></i></a>
+                <a href="https://github.com/ShellC-blts" class="github"><i class="fa-brands fa-github"></i></a>
+            </div>
+        </section>
+    </footer>
+</body>
+</html>
